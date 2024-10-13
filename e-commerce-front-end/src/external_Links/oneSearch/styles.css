@@ -1,0 +1,13 @@
+.app {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+ }
+ .dropdown-container {
+   width: 90%;
+   font-size: 20px;
+   color: green;
+   text-align: start;
+ }

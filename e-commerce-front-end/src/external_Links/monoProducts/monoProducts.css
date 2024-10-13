@@ -1,0 +1,189 @@
+.gpt3__monoProduct{
+   width: 100%;
+   height: 100%;
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+   justify-content: space-around;
+   gap: 1rem;
+   color: black;
+   background-color: #fff;
+   overflow-x: hidden;
+   z-index: 999;
+}
+.similar{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+   padding: 1rem 1rem;
+   background: #f5f5f5;
+   border: 1px solid #ccc;
+   width: 100%;
+   color: black;
+}
+.but{
+   color: white;
+   background-color: black;
+   width: 65px;
+   border-radius: 2px;
+   font-size: 14px;
+   font-weight: 600;
+}
+.similar a:hover{
+   color: red;
+}
+.gpt3__left-img{
+   flex: 0.4;
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   align-items: flex-start;
+   justify-content: space-around;
+}
+.gpt3__left-img img{
+   width: 20%;
+   margin-top: 0.5rem;
+}
+.gpt3__left-img img:hover{
+   border: 1px solid orangered;
+}
+.gpt3__center-img{
+   flex: 0.4;
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   align-items: flex-start;
+   justify-content: space-around;
+}
+.gpt3__center-img img{
+   width: 100%;
+   margin-top: 0.5rem;
+}
+.gpt3__right-img{
+   flex: 0.6;
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   align-items: flex-start;
+   justify-content: space-around;
+}
+.gpt3__right-img h2{
+   font-size: 20px;
+   font-style: normal;
+   font-family: Arial, Helvetica, sans-serif;
+   margin: 0.5rem 0.05rem;
+}
+.gpt3__right-img span label{
+   margin-right: 1rem;
+}
+.gpt3__right-img span a{
+   color: #5f88d7;
+   background: #f6f9fd;
+   padding: 0.5rem;
+   border-radius: 5px;
+}
+.gpt3__priceOwnDiscount{
+   display: flex;
+   flex-direction: column;
+   background: #f5f5f5;
+   justify-content: space-around;
+   align-items: center;
+   color: red;
+   margin-top: 1rem;
+   padding: 1rem;
+   border-radius: 5px;
+}
+.gpt3__priceOwnDiscount p{
+   font-size: 25px;
+   line-height: 1;
+}
+.gpt3__priceOwnDiscount label{
+   background: #f6e9eb;
+   font-size: 15px;
+}
+.gpt3__priceOwnDiscount_colors{
+   display: flex;
+   flex-direction: row;
+   margin: 1rem 0;
+   align-items: center;
+   justify-content: start;
+   width: 100%;
+}
+.gpt3__priceOwnDiscount_colors label{
+   font-size: 20px;
+   margin-right: 3rem;
+}
+.gpt3__priceOwnDiscount_colors button{
+   margin: 0 2rem;
+   text-align: center;
+   padding: 0.5rem;
+   border: 1px solid black;
+}
+.gpt3__priceOwnDiscount_colors button:hover{
+   border: 1px solid red;
+
+}
+.gpt3__priceOwnDiscount_qty{
+   display: flex;
+   flex-direction: row;
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+   align-items: center;
+   justify-content: space-evenly;
+   gap: 2rem;
+
+}
+.button-MUI{
+   text-align: center;
+   padding: 0.5rem 1.3rem;
+   gap: 5px;
+   border: 1px solid rgb(209, 68, 171);
+   width: 100%;
+
+}
+.gpt3__priceOwnDiscount_shipping{
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: center;
+   margin-bottom: 1rem;
+   width: 100%;
+}
+.gpt3__priceOwnDiscount_shipping p{
+   color: #989492;
+   font-size: 15px;
+   margin-left: 0;
+}
+.gpt3__priceOwnDiscount_shipping h3{
+   font-size: 15px;
+}
+.gpt3__buy-now{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+   margin-bottom: 1rem;
+   width: 100%;
+}
+.gpt3__buy-now button{
+   text-align: center;
+   padding: 0.5rem 1rem;
+   border: none;
+   width: 150px;
+   background: orangered;
+   color: white;
+   border-radius: 20px;
+}
+.gpt3__buy-now svg{
+   width: 40px;
+   cursor: pointer;
+}
+@media screen and (max-width: 700px) {
+   .gpt3__monoProduct{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+   
+}

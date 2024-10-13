@@ -1,0 +1,172 @@
+
+.chpass__main{
+      display: flex;
+      color: black;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      width: 100%;
+      height: 100%;
+      margin: 1rem auto;
+      max-width: 600px;
+      background: radial-gradient(ellipse at 50% 50%, rgba(240, 240, 226, 1) 50%, rgba(210, 221, 222, 1) 100%, rgba(238, 130, 238, 1) 100%);
+      border-radius: 1rem;
+    } 
+    .chpass__main-header{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      max-width: 600px;
+      justify-content: center;
+      margin: 1rem 1rem;
+    }
+    .chpass__main-header h1{
+      color: #000;
+      font-family: Inter;
+      font-size: 30px;
+      font-weight: 800;
+      line-height: 0px;
+      padding: 1rem 0;
+
+    }
+    .chpass__main-inputs{
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      margin: 0 1rem;
+      max-width: 500px;
+      width: 100%;
+      height: 100%;
+      padding: 2rem 0;
+    }
+    .label-1{
+      color: #000;
+      font-family: Inter;
+      font-size: 20px;
+      font-weight: 800;
+      margin: 1rem 0;
+      line-height: 20px;
+    }
+    .input-1{
+   font-weight: 800;
+   margin: 0 1rem;
+   width: 450px;
+   height: 32px;
+   flex-shrink: 0;
+   border-radius: 5px;
+   border: 2px solid #2D90D2;
+   background: #FFF;
+    }
+    .label-2{
+      color: #000;
+      font-family: Inter;
+      font-size: 20px;
+      font-weight: 800;
+      margin: 1rem 0;
+      line-height: 20px;
+    }
+    .input-2{
+   font-weight: 800;
+   margin: 0 1rem;
+   width: 450px;
+   height: 32px;
+   flex-shrink: 0;
+   border-radius: 5px;
+   border: 2px solid #2D90D2;
+   background: #FFF;
+    }
+    .input-3{
+   font-weight: 800;
+   margin: 0 1rem;
+   width: 450px;
+   height: 32px;
+   flex-shrink: 0;
+   border-radius: 5px;
+   border: 2px solid #2D90D2;
+   background: #FFF;
+    }
+    .label-3{
+      color: #000;
+      font-family: Inter;
+      font-size: 20px;
+      font-weight: 800;
+      margin: 1rem 0;
+      line-height: 20px;
+    }
+.chpass__main-footer{
+   /* background-color: #000; */
+   display: flex;
+   flex-direction: row;
+   align-items: start;
+   justify-content:center;
+   margin: 5px 1rem;
+   max-width: 500px;
+   width: 100%;
+   height: 100%;
+   padding: 1rem 0;
+ }
+ .chpass__main-footer p{
+   font-weight: 800;
+   width: 353px;
+   height: 32px;
+   font-size: 20px;
+   flex-shrink: 0;
+   border-radius: 5px;
+   line-height: 5px;
+   margin-top: 1rem;
+   margin-right:-2rem ;
+} 
+.chpass__main-footer button{
+   width: 160px;
+   flex-shrink: 0;
+   border-radius: 7px;
+   background: #2D90D2;
+   padding: 0.5rem 1rem;
+   text-align: center;
+   border: none;
+   margin-right: 1.5rem;
+   font-size: 14px;
+   font-weight: bold;
+   color: #000;
+   cursor: pointer;
+} 
+
+@media screen and (max-width: 550px){
+   .chpass__main{
+      width: 90%;
+   }
+   .label-1{
+      font-size:20px;
+   }
+   .input-1{
+      width: 80%;
+   }
+   .label-2{
+      font-size:20px;
+   }
+    .input-2{
+      width: 80%;
+   }
+   .label-3{
+      font-size:20px;
+   }
+   .input-3{
+      width: 80%;
+   }
+   .chpass__main-footer {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      margin: 0 3rem;
+   }
+}
+/* @media screen and (max-width: 800px){
+   .chpass__main-footer p{
+      margin-right:-1rem;
+   }
+   .chpass__main-footer button{
+      margin-left:-2rem;
+   }
+} */

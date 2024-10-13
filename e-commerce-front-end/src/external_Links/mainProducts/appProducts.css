@@ -1,0 +1,251 @@
+/* Adjustments for carousel container within gpt3__appProducts-right */
+.gpt3__appProducts-right {
+   flex: 1;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+   gap: 2rem;
+   background-color: white;
+   border: 1px solid #ccc;
+   padding: 20px;
+   box-sizing: border-box;
+   font-family: "Amazon Ember", Arial, sans-serif;
+   color: wheat;
+}
+ 
+.checked {
+   color: orange;
+}
+
+.left__KFLS-price{
+   display: flex;
+   flex-direction: column;
+   margin-left: 0.4rem;
+   padding: 1rem 0;
+}
+.left__KFLS-price a{
+   font-family: inherit;
+   font-weight: 500;
+   line-height: 2;
+   font-size: 18px;
+   color: black;
+}
+.left__KFLS-price a:hover{
+   text-decoration: underline;
+   color: orangered;
+   cursor: pointer;
+}
+.left__KFLS-discount{
+   display: flex;
+   flex-direction: column;
+   margin-left: 0.4rem;
+   padding: 1rem 0;
+}
+.left__KFLS-discount a{ 
+   font-family: inherit;
+   font-weight: 500;
+   line-height: 2;
+   font-size: 18px;
+   color: black;
+}
+.left__KFLS-discount a:hover{
+   text-decoration: underline;
+   color: orangered;
+   cursor: pointer;
+}
+.left__KFLS-rating{
+   display: flex;
+   flex-direction: column;
+   margin-left: 0.4rem;
+   padding: 1rem 0;
+}
+ 
+input[type="checkbox"] {
+   appearance: none;
+   width: 25px;
+   height: 25px;
+   border: 2px solid white;
+   border-radius: 5px; 
+   outline: none;
+   cursor: pointer;
+}
+input[type="checkbox"]::before {
+   content: "\2713";
+   display: block;
+   width: 100%;
+   background: #ccc;
+   height: 100%;
+   font-size: 24px;
+   text-align: center;
+   line-height: 28px;
+   color: transparent;
+   transition: transform 0.3s ease;
+}
+ 
+input[type="checkbox"]:checked::before {
+   color: blue;
+   transform: scale(1.2);
+}
+ 
+.gpt3__appProductsContainer{
+   display: flex;
+   flex-direction: row;
+   align-items: start;
+   justify-content: space-between;
+   width: 100%;
+   height: 100%;
+   color: #232f3e;
+}
+.gpt3__appProducts-left{
+   flex: 0.3;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: space-between;
+   background-color: white;
+}
+.left__KFLS-programs{
+   display: flex;
+   flex-direction: column;
+   margin-left: 0.4rem;
+   padding: 1rem 0;
+}
+.left__KFLS-programs a{
+   font-family: inherit;
+   font-weight: 500;
+   line-height: 2;
+   font-size: 18px;
+   color: black;
+}
+.left__KFLS-programs a:hover{
+   text-decoration: underline;
+   color: orangered;
+   cursor: pointer;
+}
+.left__KFLS-Departments{
+   display: flex;
+   flex-direction: column;
+   margin-left: 0.4rem;
+   padding: 1rem 0;
+}
+.left__KFLS-Departments span{
+   display: flex;
+   flex-direction: row;
+   padding: 0.3rem 0;
+}
+.left__KFLS-Departments span label{
+   margin-left: 0.3rem;
+   font-family: inherit;
+   font-weight: 500;
+   font-size: 18px;
+   color: black;
+}
+
+.left__KFLS-rating label{
+   margin-left: 0.3rem;
+   font-family: inherit;
+   font-weight: 500;
+   font-size: 18px;
+   color: black;
+}
+
+.products__footer{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   margin-top:  1rem;
+}
+
+.back_to-top{
+   background: #232f3e;
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
+   padding: 0.5rem 0;
+   margin-top: -2rem;
+}
+
+.back_to-top:hover{
+   opacity: 0.9;
+   transition: 0.1s;
+   background: #546a7d;
+}
+
+.back_to-top p{
+   color: white;
+}
+
+@media screen and (min-width: 300px) and (max-width: 500px){
+   .gpt3__appProducts{
+      overflow-x: hidden;
+      width: 100%;
+      z-index: 999;
+   }
+   .gpt3__appProducts-left h5{
+      font-size: 15px;
+   }
+   .gpt3__appProducts-left a{
+      font-size: 12px;
+   }
+   .left__KFLS-Departments span label{
+      font-size: 13px;
+   }
+   .left__KFLS-Departments span input{
+      width: 15px;
+      height: 15px;
+   }
+   .left__KFLS-rating span svg{
+      width: 12.8%;
+   }
+   .gpt3__appProducts-right{
+      width: 75%;
+   }
+}
+
+@media screen and (min-width: 500px) and (max-width: 850px) {
+   .gpt3__appProducts{
+      overflow-x: hidden;
+      width: 100%;
+      height: 100%;
+   }
+   .gpt3__appProducts-left h5{
+      font-size: 18px;
+   }
+   .gpt3__appProducts-left a{
+      font-size: 15px;
+   }
+   .left__KFLS-Departments span label{
+      font-size: 15px;
+   }
+   .gpt3__appProducts-right{
+      width: 80%;
+   }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1150px) {
+   .gpt3__appProducts-left{
+      width: 15%;
+   }
+   .gpt3__appProducts-right{
+      width: 80%;
+   }
+}
+
+@media screen and (min-width: 250px) and (max-width: 300px) {
+   .gpt3__appProducts-left h5{
+      font-size: 10px;
+   }
+   .gpt3__appProducts-left a{
+      font-size: 9px;
+   }
+   .gpt3__appProducts-right{
+      width: 80%;
+   }
+}

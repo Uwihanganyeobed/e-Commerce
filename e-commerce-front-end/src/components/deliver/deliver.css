@@ -1,0 +1,120 @@
+/* External CSS for Delivery component */
+.delivery-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.open-modal-button {
+  padding: 10px 20px;
+  background-color: #f0c14b;
+  color: #111;
+  border: 1px solid #a88734;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.modal-content {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  background-color: white;
+  width: 350px;
+  padding: 20px;
+  border-radius: 10px;
+  z-index: 1000;
+  text-align: center;
+}
+
+.modal-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.modal-header h2 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.close-icon {
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.modal-body {
+  padding: 10px 0;
+  font-size: 14px;
+  color: #555;
+}
+
+.signin-button {
+  background-color: #f0c14b;
+  color: #111;
+  border: 1px solid #a88734;
+  border-radius: 5px;
+  padding: 8px;
+  font-size: 14px;
+  width: 100%;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.divider {
+  font-size: 12px;
+  color: #888;
+  margin: 10px 0;
+}
+
+.zip-code-input {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.zip-code-input input {
+  padding: 8px;
+  font-size: 14px;
+  flex: 1;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.apply-button {
+  padding: 8px;
+  background-color: #f0c14b;
+  color: #111;
+  border: 1px solid #a88734;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.country-select {
+  padding: 8px;
+  font-size: 14px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.done-button {
+  background-color: #f0c14b;
+  color: #111;
+  border: 1px solid #a88734;
+  border-radius: 5px;
+  padding: 8px;
+  font-size: 14px;
+  margin-top: 20px;
+  cursor: pointer;
+  width: 100%;
+}

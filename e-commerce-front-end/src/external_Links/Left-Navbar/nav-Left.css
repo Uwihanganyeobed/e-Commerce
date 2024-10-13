@@ -1,0 +1,227 @@
+.mySvg{
+   width: 100%;
+   height: 100%;
+}
+.offcanvas{
+   width: 100%;
+   display: flex;
+   height: auto;
+   flex-direction: column;
+   margin: 0;
+   padding: 0;
+}
+h2{
+   font-size: 25px;
+   margin-left: 2rem;
+
+}
+hr {
+   margin: 1rem 0; 
+   border: none;
+   border: 2px solid #ccc; 
+   width: 100%;
+}
+
+a{
+   text-decoration: none;
+}
+p{
+   color: #000;
+   font-size: 18px;
+   margin-left: 2rem ;
+}
+.offcanvas-header{
+display: flex;
+width: 100%;
+flex-direction: row;
+justify-content: start;
+align-items: center;
+}
+.canvas__heading{
+   margin-top: -1rem;
+   margin-right: 11.3rem;
+   margin-left: -1rem;
+   margin-bottom: -1rem;
+   background: conic-gradient(from 90deg at 50% 50%, rgba(28, 37, 132, 0.95) 0%, rgba(37, 33, 93, 1) 55%);
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+   justify-content: start;
+}
+
+.canvas__heading svg{
+   width: 30px;
+   margin-left: 2rem;
+}
+.canvas__heading h1{
+   color: #FFF;
+   font-family: 'Roboto';
+   font-weight: 800;
+  text-align: center;
+   padding: 1rem;
+   font-size: 24px;
+}
+
+.canvas__main{
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items:center;
+   justify-content: flex-start;
+   padding: 0;
+   overflow: hidden;
+}
+
+.canvass__electronics{
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: self-start;
+   justify-content: flex-start;
+
+}
+.canvass__electronics h2{
+   color: #000;
+   font-family: Roboto;
+   font-weight: 700;
+   line-height: normal;
+   margin-bottom: 1.5rem;
+}
+.mobile, .smart, .lap{
+   display: block;
+   width: 100%;
+   cursor: pointer;
+   padding-top: 0.3rem;
+}
+.mobile:hover,.smart:hover,.lap:hover{
+   background-color: #c9c3c3;
+}
+
+.canvass__department{
+   margin: 1rem 0;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: self-start;
+   justify-content: flex-start;
+
+}
+.canvass__department h2{
+   color: #000;
+   font-family: Roboto;
+   font-weight: 800;
+   line-height: normal;
+   margin-bottom: 1.5rem;
+   display: block;
+   width: 100%;
+}
+.canvass__settings{
+   margin-top: 0;
+   width: 100%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: self-start;
+   justify-content: flex-start;
+
+}
+.canvass__settings h2{
+   color: #000;
+   font-family: Roboto;
+   font-weight: 800;
+   line-height: normal;
+   margin-bottom: 2rem;
+   display: block;
+   width: 100%;
+}
+.canvass__settings svg{
+   margin-right: 1rem;
+   width: 15%;
+}
+
+
+@media screen and (max-width: 500px){
+  .offcanvas{
+   height: auto;
+   width: fit-content;
+  }
+  .canvas__heading{
+   margin-top: -1rem;
+   margin-right: 14.7rem;
+   margin-left: -1rem;
+   margin-bottom: -1rem;
+  
+}
+.canvas__heading h1{
+   font-size: 15px;
+   
+}
+.btn-close {
+   position: fixed; /* or absolute, depending on your layout */
+    right: 9%;
+    top: 1;
+    bottom: 1;
+    overflow: hidden;
+ }
+}
+
+@media screen and (min-width: 500px) and (max-width: 800px) {
+     .canvas__heading{
+      margin-top: -1rem;
+      margin-right: 14.7rem;
+      margin-left: -1rem;
+      margin-bottom: -1rem;
+     
+   }
+   .canvas__heading h1{
+      font-size: 15px;
+      
+   }
+   .btn-close {
+      position: absolute;
+       left: 90%;
+       top: 1;
+       bottom: 1;
+    }  
+}
+
+@media screen and (min-width: 800px) and (max-width: 1150px) {
+   .canvas__heading{
+    margin-top: -1rem;
+    margin-right: 14.7rem;
+    margin-left: -1rem;
+    margin-bottom: -1rem;
+   
+ }
+ .canvas__heading h1{
+    font-size: 15px;
+    
+ }
+ .btn-close {
+    position: absolute;
+     left: 90%;
+     top: 1;
+     bottom: 1;
+  }  
+}
+
+@media screen and (min-width: 1150px) and (max-width: 1300px) {
+   .canvas__heading{
+    margin-top: -1rem;
+    margin-right: 14.7rem;
+    margin-left: -1rem;
+    margin-bottom: -1rem;
+   
+ }
+ .canvas__heading h1{
+    font-size: 15px;
+    
+ }
+ .btn-close {
+    position: absolute;
+     left: 90%;
+     top: 1;
+     bottom: 1;
+  }  
+}
