@@ -3,11 +3,9 @@ import Tooltip from "@mui/material/Tooltip";
 import Button from "@mui/material/Button";
 import Stack from "@mui/material/Stack";
 import { useState, useEffect } from "react";
-import { Link, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import PaginateElement from "../lastPagination/PaginateElement";
-import ProductValueHome from "../HomevaluedProducts/ProductValueHome";
 import ProductValue from "../valuedProducts/ProductValue";
-import ProductValuewear from "../wearValuedProducts/ProductValuewear";
 import ToogleModelRating from "../comment&Rating/ToogleModelRating";
 import ToogleModelComment from "../comment&Rating/ToogleModelComment";
 import ProductBar from "../../components/product-bar/ProductBar"
