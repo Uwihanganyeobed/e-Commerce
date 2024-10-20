@@ -13,7 +13,14 @@ app.use(express.json());
 app.use(cors());
 
 // Db connection
-mongoose.connect(process.env.MONGOOSE_URL);
+mongoose.connect(process.env.MONGOOSE_URL)
+  .then(() => {
+    console.log('MongoDB Connected');
+  })
+  .catch(err => {
+    console.error('MongoDB connection error:', err);
+  });
+
 
 // API creation
 app.get("/", (req, res) => {

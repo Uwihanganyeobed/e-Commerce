@@ -1,8 +1,6 @@
 import React from 'react';
 import people from '../../assets/Home-Images/people.png';
-// import motivePic from '../../assets/Home-Images/main_Image.png';
 import './header.css';
-// import admin from '../../assets/Admin.jpg'
 
 const Header = () => (
   <div className="gpt3__header section__padding" id="home">
