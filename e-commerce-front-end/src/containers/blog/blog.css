@@ -2,6 +2,10 @@
     display: flex;
     flex-direction: column;    
 }
+.gradient__text{
+    font-size: 40px;
+    font-weight:500;
+}
 
 .gpt3__blog-heading {
     width: 100%;

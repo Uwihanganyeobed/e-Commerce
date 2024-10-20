@@ -53,24 +53,24 @@ function Blog() {
   return (
     <div className="gpt3__blog section__padding" id="blog">
       <div className="gpt3__blog-heading">
-        <h1 className="gradient__text">A lot of New Products are coming for you!</h1>
+        <p className="gradient__text">A lot of New Products are coming for you!</p>
       </div>
       <div className="gpt3__blog-container">
         <div className="gpt3__blog-container_groupA">
           {randomImages.length > 0 &&
-            <Link to={`/products/home/${randomImages[0].prodId}`}>
+            <Link to={`/products/equipHome/${randomImages[0].prodId}`}>
               <Article imgUrl={randomImages[0].prodImage} date="Mar 21, 2024" text={randomImages[0].prodName} />
             </Link>
           }
         </div>
         <div className="gpt3__blog-container_groupB">
           {randomImages.slice(1).map((image, index) => (
-            <Link key={index} to={`/products/home/${image.prodId}`}>
+            <Link key={index} to={`/products/equipHome/${image.prodId}`}>
               <Article imgUrl={image.prodImage} date="Mar 21, 2024" text={image.prodName} />
             </Link>
           ))}
           {randomImages.length === 4 &&
-            <Link key={4} to={`/products/home/${randomImages[0].prodId}`}>
+            <Link key={4} to={`/products/equipHome/${randomImages[0].prodId}`}>
               <Article imgUrl={randomImages[0].prodImage} date="Mar 21, 2024" text={randomImages[0].prodName} />
             </Link>
           }
